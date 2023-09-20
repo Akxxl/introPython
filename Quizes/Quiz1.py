@@ -8,13 +8,13 @@
 "logical operator"
 
 # 3. Describe the difference between camal case and pascal case.
-for camel case ever begining of a word is capital except the first word and fir pascel every begining of a word is capital
+"for camel case ever begining of a word is capital except the first word and fir pascel every begining of a word is capital"
     
 # 4. Which operator is being used in the example below
 numberOfApples = 10   "assignment operators"
 numberOfOranges = 12  "assignment operators"
 
-numberOfApples < numberOfOranges  "comparison operators"
+numberOfOranges  "comparison operators"
 
 # 5. You have been given a $100.00 dollar gift card from a family member. Another 
 # family member adds 50.00 dollars to your gift card and a friend gives you $35.50. 
