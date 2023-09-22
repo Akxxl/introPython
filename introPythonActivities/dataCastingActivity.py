@@ -25,3 +25,8 @@ he_Is = "He is"
 year_Old = "years old."
 
 print(dog + name_of_pet + he_Is + age_of_pet+ year_Old)
+
+
+print('________________________')
+def Welcome_Wsg():
+    print('welcome to class')
