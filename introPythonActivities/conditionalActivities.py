@@ -41,12 +41,13 @@ else:
 # use a conditional statement to determine if you need to order more cereal.
 # If there is more than 10 boxes, print "inventory full", else if there are less than 
 # 10 boxes print "we need to order more cereal".
-inv_of_cereal = 10
-more_stock = 11
-less_stock = 9
 
-def inv_of_cereal():
-    if inv_of_cereal < more_stock:
-        print("inventoryf ull")
+def cereal_inventory(cereal):
+    current_cereal_inventory=10
+
+    if cereal >= current_cereal_inventory:
+        print ("inventory full")
     else:
-        print("we need to order more cereal")
+        print ("we need to order more cereal boxes")
+
+cereal_inventory(11)
