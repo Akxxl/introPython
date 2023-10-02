@@ -49,6 +49,10 @@ for n in x:
 # HINT - for this function you will need to use the append() function. 
 
 shopping_cart = ['notebook', 'pens','tape','mousepad']
-shopping_cart.append('pencils')
 
-print(shopping_cart)
+def amazon():
+    what_else = input('what else would you like to add to your shopping cart? ')
+    shopping_cart.append(what_else)
+
+    print( shopping_cart)
+amazon()
