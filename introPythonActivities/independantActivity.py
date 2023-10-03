@@ -55,4 +55,37 @@ def amazon():
     shopping_cart.append(what_else)
 
     print( shopping_cart)
-amazon()
+#amazon()
+
+
+
+#define python list 0 a data type that allows for multiple values within one variable
+
+numer_list = [1, 321, 2139]
+string_list = ["Akeel"]
+
+var_list = [ numer_list, string_list]
+
+print(var_list[1])
+
+#creat a function that will ad a new list tiem to a checkout cart the user should be able to enter
+# the name of the item and the price of your function should daa the name of the item to the list
+# of items you will also need to write code that will add all the prices of the items including
+#the price of the new item
+
+list_of_items = ['apples', 'orange', 'book']
+
+apple_price= 1.00
+orange_price= 3.00
+book_price= 10.00
+cart = apple_price + orange_price + book_price
+def shop_rite():
+    
+    wut_else = input('what else do you want to add to your cart? ')
+    list_of_items.append(wut_else)
+    how_much= input('how much does you item cost? ')
+    
+    print(list_of_items)
+    print(cart + float(how_much))
+
+shop_rite()
