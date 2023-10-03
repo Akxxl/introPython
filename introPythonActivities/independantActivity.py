@@ -78,7 +78,7 @@ list_of_items = ['apples', 'orange', 'book']
 apple_price= 1.00
 orange_price= 3.00
 book_price= 10.00
-cart = apple_price + orange_price + book_price
+
 def shop_rite():
     
     wut_else = input('what else do you want to add to your cart? ')
@@ -86,6 +86,6 @@ def shop_rite():
     how_much= input('how much does you item cost? ')
     
     print(list_of_items)
-    print(cart + float(how_much))
+    print(apple_price + orange_price + book_price + float(how_much))
 
 shop_rite()
