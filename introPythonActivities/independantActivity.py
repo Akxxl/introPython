@@ -84,8 +84,37 @@ def shop_rite():
     wut_else = input('what else do you want to add to your cart? ')
     list_of_items.append(wut_else)
     how_much= input('how much does you item cost? ')
-    
+    print('your new shopping cart')
     print(list_of_items)
+    print('your total cost is ')
     print(apple_price + orange_price + book_price + float(how_much))
 
-shop_rite()
+
+#user_responce = input('would you like to add another item')
+#if user_responce== 'yes':
+#    shop_rite()
+#else:
+#    print('return to checkout')
+
+#shop_rite()
+
+
+mail = 21
+#creat a function that when it is called will delete da mail
+def mail_box():
+    print('you current inbox is ' + str(mail))
+    subtraction_mail= int(input('how many emails woudl you like to delete? '))
+    remainging_mail=mail- subtraction_mail
+    print('your remaining mail is listed below')
+    print(remainging_mail)
+    if subtraction_mail > mail:
+        print(' your asking to delete more emails than ur inbox has')
+    else:
+        confirm_deletion=input('are you sure u want to delete your mails? ')
+        if confirm_deletion=='yes':
+            remainging_mail= mail-subtraction_mail
+            print('your remaainging mail is listed below')
+            print(remainging_mail)
+        else:
+            print('your wont delete your mails.')
+mail_box()
