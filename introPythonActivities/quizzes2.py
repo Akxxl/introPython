@@ -111,6 +111,7 @@ enter_building()
 # 9. What does it mean to call a function? Why do we call functions. 
 # you can use the variable below to enter you ansewer. 
 answer9='your answer here'
+
 'to call a function means when youve written a set of code you call it for the code to work'
 
 
