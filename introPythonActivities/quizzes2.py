@@ -47,13 +47,13 @@ def elevator():
     
     elif wut_floor == 203:
         print('you are going to the gym')
-    elif wut_floor == 101:
-        print('you are going to the boys latin office. ')
+    elif wut_floor == 'g':
+        print('you are going to the lobby')
     else:
         print('That floor dosnt exist please enter a valid floor number. ')
 
 elevator()
-
+"this one confused me"
 # 4. Write a simple conditional statement that uses a boolean that will print if it is daytime or nighttime.
 
 sun_is_out = False
@@ -106,6 +106,8 @@ def enter_building():
         print('Please try again from the beggining')
 
 enter_building()
+
+"this one confused me"
 # 9. What does it mean to call a function? Why do we call functions. 
 # you can use the variable below to enter you ansewer. 
 answer9='your answer here'
