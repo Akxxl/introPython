@@ -40,14 +40,14 @@ calculation()
 # hint you will need to look into using conditional statements
 
 def elevator():
-    wut_floor = int(input('what floor would u like to go too? '))
+    wut_floor = input('what floor would u like to go too? ')
 
-    if str(wut_floor) == 101:
+    if wut_floor == '101':
         print('you are going to the boys latin office. ')
     
-    elif wut_floor == 203:
+    elif wut_floor == '203':
         print('you are going to the gym')
-    elif wut_floor == 'g':
+    elif wut_floor == "g":
         print('you are going to the lobby')
     else:
         print('That floor dosnt exist please enter a valid floor number. ')
@@ -83,6 +83,7 @@ random_number_list2 = [100,230,40,39403,19]
 
 x = max(random_number_list2)
 print(x)
+
 # 8. A security company has hired you as an engineer to help them develop a program that will only let users into the building 
 # if they enter a specific password. They given you the following information to use to build this program.
 # - they want users to be able to enter a series of codes to get access
