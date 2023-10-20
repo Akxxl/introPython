@@ -18,6 +18,7 @@ while u < copy:
 
 
 
+
 # 3. Create a Stop Light Loop that will change the light color based on different time intervals. 
 # every 30 seconds the light should change between green and red. 
 
