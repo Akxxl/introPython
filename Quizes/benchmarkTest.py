@@ -146,11 +146,13 @@ multiplying(10,4)
 # 13. When you run your code and see typeError in your terminal, what does that typically mean and how would you try to solve
 # the issue?
 
-
+'typeError happens when u put in a command but it could not be preformed, probably u put in in wrong'
 
 # 14. When you run your code and see indentError in your terminal, what does that typically mean and how would you try to solve 
 # the issue?
 
+'when u see indent eroor it mean u didnt indent something write and to fix it you just have to go'
+'thought ur code and find the indetn error'
 
 
 # 15. Create a while loop that check a user's password. If they enter the password correct, they will get a message saying 
@@ -158,17 +160,34 @@ multiplying(10,4)
 # The user should only have three (3) attempts to get the password correct. If they enter the password incorrect on the fourth 
 # attempt, a message should appear telling them that have been locked out and need to talk to the administrator. 
 
+passcode = 'Akeel1239$'
+passcodeAteempt_count = 0
+
+while passcodeAteempt_count < 3:
+    passcodeAtempt = input('please enter password ')
+    if passcodeAtempt != passcode:
+        print('incoret password try again')
+    else:
+        print('Password entered sucsesfully')
+        break
+
+    passcodeAteempt_count +=1
 
 
 # 16. Which item is at index 5
 giftShopping=['xbox','sneakers','necklace','clothing','laptop','gift card']
 
+'gift card is becuase the index count starts are 0 so xbox would be 0 and then gift card would be 5'
+'and another was to show this is if we write print(giftShopping[5])'
 
 
 # 17. Create a for loop that will print ONLY the even numbers within the range of the variable provided below.
 # HINT: You will need to use the range() function. 
 upToNumber = 30
 
+things = range(2,31,2)
+for thing in things:
+    print(thing)
 
 
 # 18. Create a function that uses a conditional statement that checks if a person qualifies for a raise on their salary. 
@@ -178,6 +197,24 @@ upToNumber = 30
 # should return the a message congratulating the user by name, and telling them what their new salary is with the 15%
 # increase (this must be the actual number). If they do not qualify inform the user that unfortunately they do not qualify. 
 
+
+salery = 20.00
+new_salery_raise = 1.15
+
+
+def getting_raise():
+    name1 = input('what is your name? ')
+    how_long = int(input('how long have you been working at our company? '))
+
+    if how_long > 3:
+        print('congradulations'+ name1 +'your get a new raise')
+        print('your new raise is below')
+        print(salery*new_salery_raise)
+
+    else:
+        print('sorry you cant get a raise yet')
+
+getting_raise()
 
 
 # 19. Create a function that checks which value is greater than the other. Your function should take two (2) integer parameters. 
