@@ -1,35 +1,40 @@
-# 1. In your own words, describe what a for loop is?
-
-" its a loop that goes through lists and prints it repeatingly"
-
-" a loop thay repeats a block of code a specific amout of times."
-# 2. What is the difference between a FOR loop and a WHILE loop?
-# Provide two (2) examples of each. 
-
-"while loops execute a set of statements as long as a condition is true"
-"for loops execute a set of statements once for each item in a list, tuple, set etc."
-
-"WHILE loops"
-
-i = 1
-while i < 6:
-  print(i)
-  i += 1
-
-'For loops'
-
-fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-  print(x)
 
 
 
-# 3. Create a FOR loop that will go through a list of names 
-# and print all the names that start with the letter "R".
+def grade_thing():
+  name = input('what is your name')
+  chicken = int(input('what is your grade'))
 
+  
 
-names=['Michael','Rebecca','William','Kareem','Robert','Rose','Jason']
+  if chicken == 9 or 10:
+    print('Welcome' + name + 'to intro python class')
 
-for firstLetter in names:
-  if firstLetter[0] == 'R':
-    print(firstLetter)
+  elif chicken == 11 or 12:
+    print('welcome ' + name + 'to advanced python class')
+
+  
+#grade_thing()
+
+def farts():
+  name1 = input('what is your name')
+  chicken1 = int(input('what is your grade'))
+
+  
+
+  if chicken1 == 9:
+    print('Welcome ' + name1 + ' to intro python class')
+
+  elif chicken1 == 10:
+    print('welcome ' + name1 + ' to intro python class')
+
+  elif chicken1 == 11:
+    print('welcome '+ name1 + ' to advanced python')
+
+  elif chicken1 == 12:
+    print('welcome '+ name1 + ' to advanced python')
+
+  
+  
+farts()
+
