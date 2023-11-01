@@ -1,0 +1,6 @@
+A version control is like the practise of keeping track of changes made in a code
+
+1. Information, you can passdown Information to help people learn things.
+2. like cloths from a older sibling to an younger one
+3. codes so people can use it in the future to make it easier for them
+
