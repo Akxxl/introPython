@@ -6,4 +6,3 @@ def thing():
 
 thing()
 
-
