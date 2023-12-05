@@ -36,7 +36,7 @@ def calc():
             print(str(num1) + " is less than " + str(num2))
 
     else:
-        print('error please retry and make sure u put in all the correct information')
+        print('error please rerun code and make sure u put in all the correct information')
 
 
     print('if you would like to do another calculation, run the program again. ')
