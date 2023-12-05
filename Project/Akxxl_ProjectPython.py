@@ -1,8 +1,8 @@
 
 def calc():
     
-    num1 = int(input('what is the first number you would like to use? '))
-    num2 = int(input('what is the second number you would like to use? '))
+    num1 = float(input('what is the first number you would like to use? '))
+    num2 = float(input('what is the second number you would like to use? '))
     print('the types of math you can do is addition, subtraction, multiplication, division, or greater then or equal too ')
     print('type + for addition')
     print('type - for subtraction')
@@ -43,5 +43,3 @@ def calc():
 
 
 calc()
-
-
